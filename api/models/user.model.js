@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
     username : { type : String, required : true, unique : true},
     email : { type : String, required : true, unique : true},
     password : { type : String, required : true},
-    avatar : {type : String,default : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvectors%2Fuser-profile.html&psig=AOvVaw3aIQ-XTsk2TKhbXZsZGXaK&ust=1718266516163000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNC7m93P1YYDFQAAAAAdAAAAABAE"}
+    avatar : {type : String,default : "https://st3.depositphotos.com/15648834/17930/v/450/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"}
 }, { timeStamps : true})
 
 const User = mongoose.model('User',userSchema);
