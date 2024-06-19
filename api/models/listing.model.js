@@ -5,7 +5,7 @@ const listingSchema = new mongoose.Schema({
     description : {type :String,required : true},
     address : {type : String,required : true},
     regularPrice : {type : Number,required : true},
-    discuntePrice : {type : Number ,required : true},
+    discountPrice : {type : Number ,required : true},
     bathrooms : {type : Number,required : true},
     bedrooms : {type : Number,requied : true},
     furnished : {type : Boolean,required : true},
