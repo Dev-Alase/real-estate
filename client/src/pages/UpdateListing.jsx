@@ -166,7 +166,7 @@ import {
         if(data.success === false){
           setError(data.message)
         }
-        navigate(`/listings/${data._id}`)
+        navigate(`/listing/${data._id}`)
       }
   
   
